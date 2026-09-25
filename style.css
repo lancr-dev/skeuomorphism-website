@@ -153,7 +153,6 @@ h3 {
   font-size: clamp(1rem, 1.6vw, 1.15rem);
 }
 
-/* Embossed plaque and notebook-tab navigation. */
 .site-header {
   position: relative;
   z-index: 5;
@@ -257,7 +256,6 @@ h3 {
   transform: translateY(-3px);
 }
 
-/* The hero is an actual desk scene, with paper as its content surface. */
 .desk-surface,
 .explore,
 .closing {
@@ -625,7 +623,6 @@ h3 {
   font-size: 1.1rem;
 }
 
-/* A stitched notebook spread, with a gutter that folds on small screens. */
 .about {
   background:
     radial-gradient(circle at 20% 5%, #fffaf0, transparent 45%),
@@ -753,7 +750,6 @@ h3 {
   border-radius: 12px;
 }
 
-/* A cabinet of pull-out drawers, using native details elements. */
 .explore,
 .closing {
   position: relative;
@@ -908,7 +904,6 @@ h3 {
   text-transform: uppercase;
 }
 
-/* A clipped comparison sheet pinned to the wall. */
 .comparison {
   background:
     radial-gradient(circle at top left, #fef9e9, transparent 48%),
@@ -983,7 +978,6 @@ h3 {
   font-size: 0.94rem;
 }
 
-/* Recessed modules in a brushed-metal instrument panel. */
 .workshop {
   background:
     radial-gradient(circle at 10% 5%, #4b5956, transparent 45%),
@@ -1264,7 +1258,6 @@ h3 {
   text-align: right;
 }
 
-/* Closing letter and understated footer. */
 .closing-letter {
   position: relative;
   z-index: 1;
@@ -1325,7 +1318,6 @@ h3 {
   text-underline-offset: 4px;
 }
 
-/* Each breakpoint adapts the physical layout instead of scaling the desk down. */
 @media (max-width: 1000px) {
   .hero {
     gap: 1.5rem;
