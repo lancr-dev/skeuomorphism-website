@@ -1,5 +1,3 @@
-// Native buttons, checkboxes, ranges, and details keep the controls usable
-// with a mouse, keyboard, or touch. JavaScript adds feedback to the workshop.
 (() => {
   const panel = document.querySelector('.workshop-panel');
 
