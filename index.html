@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Step into a tactile showcase of skeuomorphic web design. Explore familiar materials, physical controls, and interfaces you can almost touch."
+    />
+    <meta name="theme-color" content="#493225" />
+    <title>Almost Tangible — A Skeuomorphic Design Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-header-plaque">
+          <a
+            class="site-logo"
+            href="#home"
+            aria-label="Almost Tangible, back to top"
+          >
+            <span class="site-logo-mark" aria-hidden="true">AT</span>
+            <span class="site-logo-name">Almost Tangible</span>
+          </a>
+          <span class="site-header-edition"
+            >An interactive design collection · No. 01</span
+          >
+        </div>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul class="site-nav-tabs">
+            <li><a class="site-nav-tab" href="#home">The desk</a></li>
+            <li><a class="site-nav-tab" href="#about">The idea</a></li>
+            <li><a class="site-nav-tab" href="#explore">The collection</a></li>
+            <li><a class="site-nav-tab" href="#controls">The workshop</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main-content">
+        <section
+          class="hero desk-surface"
+          id="home"
+          aria-labelledby="hero-title"
+        >
+          <div class="hero-content paper-sheet">
+            <p class="section-kicker">A study in digital tactility</p>
+            <h1 id="hero-title">Interfaces you can <em>almost touch.</em></h1>
+            <p class="hero-description">
+              Welcome to the world of skeuomorphism, where digital objects
+              borrow the familiar feel of the physical world.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-brass" href="#explore"
+                >Explore the collection</a
+              >
+              <a class="button button-paper" href="#about">Discover the idea</a>
+            </div>
+            <p class="hero-footnote">
+              Look closer. Press something. See what happens.
+            </p>
+          </div>
+
+          <div
+            class="hero-still-life"
+            aria-label="A desk arrangement of familiar objects"
+          >
+            <div class="hero-notebook notebook-object" aria-hidden="true">
+              <span class="notebook-object-binding"></span>
+              <span class="notebook-object-title">FIELD NOTES</span>
+              <span class="notebook-object-subtitle"
+                >Materials / Light / Depth</span
+              >
+            </div>
+            <div class="hero-tag tag-object" aria-hidden="true">
+              PLEASE TOUCH
+            </div>
+            <div class="hero-control control-object" aria-hidden="true">
+              <span class="control-object-label">EXPERIMENT No. 01</span>
+              <span class="control-object-disc"></span>
+              <span class="control-object-caption">TURN THE PAGE</span>
+            </div>
+            <div class="hero-pencil pencil-object" aria-hidden="true"></div>
+          </div>
+          <a class="hero-scroll" href="#about"
+            >Open the notebook <span aria-hidden="true">↓</span></a
+          >
+        </section>
+
+        <section
+          class="about section-pad"
+          id="about"
+          aria-labelledby="about-title"
+        >
+          <div class="section-heading">
+            <p class="section-kicker">01 / The idea</p>
+            <h2 id="about-title">Designed to feel familiar.</h2>
+            <p>
+              Skeuomorphism gives digital interfaces cues from objects we
+              already know: a page to turn, a switch to flip, a dial to adjust.
+            </p>
+          </div>
+
+          <div class="about-notebook notebook-spread">
+            <article class="notebook-page notebook-page-left">
+              <p class="notebook-page-number">Page 01</p>
+              <h3>The material</h3>
+              <p>
+                Paper invites reading. Metal suggests precision. Wood gives a
+                workspace warmth. Each surface carries a useful association.
+              </p>
+              <p class="notebook-annotation">
+                A surface should have a purpose.
+              </p>
+            </article>
+            <article class="notebook-page notebook-page-right">
+              <p class="notebook-page-number">Page 02</p>
+              <h3>The behavior</h3>
+              <p>
+                Raised buttons invite a press. Recessed tracks guide movement.
+                Familiar visual cues make an action easier to recognize.
+              </p>
+              <a class="notebook-page-link" href="#controls"
+                >Try the controls <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <span class="about-paperclip" aria-hidden="true"></span>
+          </div>
+        </section>
+
+        <section
+          class="explore section-pad"
+          id="explore"
+          aria-labelledby="explore-title"
+        >
+          <div class="section-heading">
+            <p class="section-kicker">02 / The collection</p>
+            <h2 id="explore-title">Four worlds. Four ways to feel.</h2>
+            <p>Open a drawer and see how a material shapes its interface.</p>
+          </div>
+
+          <div class="explore-drawers">
+            <details
+              class="explore-drawer explore-drawer-desk"
+              name="collection"
+            >
+              <summary class="explore-drawer-handle">
+                <span class="explore-drawer-number">01</span>
+                <span class="explore-drawer-name">The desk</span>
+                <span class="explore-drawer-material"
+                  >Walnut · Paper · Brass</span
+                >
+                <span class="explore-drawer-action" aria-hidden="true"
+                  >Open ↗</span
+                >
+              </summary>
+              <div class="explore-drawer-content">
+                <p>
+                  Notes, labels, and stacked pages turn information into
+                  something you can leaf through.
+                </p>
+                <a href="#about"
+                  >See the notebook <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </details>
+            <details
+              class="explore-drawer explore-drawer-console"
+              name="collection"
+            >
+              <summary class="explore-drawer-handle">
+                <span class="explore-drawer-number">02</span>
+                <span class="explore-drawer-name">The control room</span>
+                <span class="explore-drawer-material"
+                  >Steel · Rubber · Light</span
+                >
+                <span class="explore-drawer-action" aria-hidden="true"
+                  >Open ↗</span
+                >
+              </summary>
+              <div class="explore-drawer-content">
+                <p>
+                  Raised switches and inset indicators give each action a clear
+                  physical response.
+                </p>
+                <a href="#controls"
+                  >Try the switches <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </details>
+            <details
+              class="explore-drawer explore-drawer-studio"
+              name="collection"
+            >
+              <summary class="explore-drawer-handle">
+                <span class="explore-drawer-number">03</span>
+                <span class="explore-drawer-name">The studio</span>
+                <span class="explore-drawer-material"
+                  >Aluminum · Dials · Sound</span
+                >
+                <span class="explore-drawer-action" aria-hidden="true"
+                  >Open ↗</span
+                >
+              </summary>
+              <div class="explore-drawer-content">
+                <p>
+                  A mixer is a natural model for adjusting a value you can see
+                  and feel changing.
+                </p>
+                <a href="#workshop-level"
+                  >Move the fader <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </details>
+            <details
+              class="explore-drawer explore-drawer-camera"
+              name="collection"
+            >
+              <summary class="explore-drawer-handle">
+                <span class="explore-drawer-number">04</span>
+                <span class="explore-drawer-name">The camera</span>
+                <span class="explore-drawer-material"
+                  >Leather · Glass · Chrome</span
+                >
+                <span class="explore-drawer-action" aria-hidden="true"
+                  >Open ↗</span
+                >
+              </summary>
+              <div class="explore-drawer-content">
+                <p>
+                  A shutter button shows how a single deliberate press can feel
+                  satisfying.
+                </p>
+                <a href="#workshop-shutter"
+                  >Press the shutter <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <section
+          class="comparison section-pad"
+          id="details"
+          aria-labelledby="comparison-title"
+        >
+          <div class="section-heading">
+            <p class="section-kicker">03 / The details</p>
+            <h2 id="comparison-title">A familiar shape says more.</h2>
+            <p>
+              Real-world cues help show what a control does before you use it.
+            </p>
+          </div>
+
+          <div class="comparison-board">
+            <div class="comparison-board-head" aria-hidden="true">
+              <span>On a screen</span>
+              <span>Inspired by life</span>
+            </div>
+            <dl class="comparison-list">
+              <div class="comparison-row">
+                <dt>A button</dt>
+                <dd>A raised switch that invites a press</dd>
+              </div>
+              <div class="comparison-row">
+                <dt>A slider</dt>
+                <dd>A studio fader that shows its level</dd>
+              </div>
+              <div class="comparison-row">
+                <dt>A collection</dt>
+                <dd>Labeled drawers you can open</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <section
+          class="workshop section-pad"
+          id="controls"
+          aria-labelledby="workshop-title"
+        >
+          <div class="section-heading">
+            <p class="section-kicker">04 / The workshop</p>
+            <h2 id="workshop-title">Press. Slide. Switch.</h2>
+            <p>
+              Real controls make the idea click. Try each one with a mouse,
+              keyboard, or touch.
+            </p>
+          </div>
+
+          <div
+            class="workshop-panel"
+            aria-label="Interactive component workshop"
+          >
+            <div class="workshop-panel-header">
+              <span class="workshop-panel-serial"
+                >AT / CONTROL BOARD — 001</span
+              >
+              <span class="workshop-panel-indicator">READY</span>
+            </div>
+
+            <div class="workshop-grid">
+              <div class="workshop-module" id="workshop-shutter">
+                <h3>01 / The push button</h3>
+                <p>A camera shutter built for a deliberate press.</p>
+                <button
+                  class="shutter-button"
+                  type="button"
+                  data-shutter
+                  aria-label="Press the camera shutter"
+                >
+                  <span aria-hidden="true">●</span>
+                </button>
+                <p
+                  class="workshop-readout"
+                  data-shutter-status
+                  role="status"
+                  aria-live="polite"
+                >
+                  Ready to capture
+                </p>
+              </div>
+
+              <div class="workshop-module" id="workshop-switch">
+                <h3>02 / The switch</h3>
+                <p>Flip the lamp to change the panel light.</p>
+                <label class="switch-control">
+                  <span class="switch-control-label">Panel lamp</span>
+                  <input
+                    class="switch-control-input"
+                    type="checkbox"
+                    data-lamp
+                  />
+                  <span class="switch-control-track" aria-hidden="true">
+                    <span class="switch-control-thumb"></span>
+                  </span>
+                </label>
+                <p
+                  class="workshop-readout"
+                  data-lamp-status
+                  role="status"
+                  aria-live="polite"
+                >
+                  Lamp off
+                </p>
+              </div>
+
+              <div class="workshop-module" id="workshop-level">
+                <h3>03 / The fader</h3>
+                <p>Slide a studio control to set the level.</p>
+                <label class="fader-control" for="studio-level"
+                  >Studio level</label
+                >
+                <input
+                  class="fader-input"
+                  id="studio-level"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  data-level
+                />
+                <p class="workshop-readout">
+                  Level:
+                  <output for="studio-level" data-level-output>50</output>%
+                </p>
+              </div>
+            </div>
+            <p class="workshop-panel-footer">
+              Built for curious hands · Est. in pixels
+            </p>
+          </div>
+        </section>
+
+        <section class="closing section-pad" aria-labelledby="closing-title">
+          <div class="closing-letter paper-sheet">
+            <p class="section-kicker">A note before you go</p>
+            <h2 id="closing-title">Good design is something you feel.</h2>
+            <p>
+              The smallest details can make an interface feel intuitive,
+              memorable, and human. Take another look around.
+            </p>
+            <a class="button button-brass" href="#home">Back to the desk</a>
+            <span class="closing-stamp" aria-hidden="true"
+              >HANDLE<br />WITH<br />CURIOSITY</span
+            >
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          Almost Tangible <span aria-hidden="true">·</span> A skeuomorphic
+          design showcase
+        </p>
+        <a href="#home">Return to top ↑</a>
+      </footer>
+    </div>
+  </body>
+</html>
